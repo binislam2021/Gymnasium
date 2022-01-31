@@ -1,0 +1,42 @@
+root{
+    --ff1: 'Oswald', sans-serif;
+    --ff2: 'Open Sans', sans-serif;
+
+    --brand: #e23e38;
+    --th-dark: #353535;
+    --th-p: #777777;
+    --cl2: #555555;
+
+    --bg1: #dddddd;
+    --bg2: #f1f1f1;
+}
+/* ===================
+    Root CSS Ends
+=================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* ===================
+    Common CSS Ends
+=================== */
+
+
+
+
+/* ===================
+     CSS Starts
+=================== */
+/* ===================
+     CSS Ends
+=================== */
