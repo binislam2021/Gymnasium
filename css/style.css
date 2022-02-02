@@ -6,9 +6,17 @@ root{
     --th-dark: #353535;
     --th-p: #777777;
     --cl2: #555555;
+    --twit: #1da1f2;
 
     --bg1: #dddddd;
     --bg2: #f1f1f1;
+
+    --over6: rgba(0, 0, 0, 0.6);
+    --over8: rgba(0, 0, 0, 0.8);
+    --over85: rgba(0, 0, 0, 0.85);5
+    --over9: rgba(0, 0, 0, 0.9);
+    --overred: rgba(226, 62, 56, 0.5);
+    --overwhite: rgba(255, 255, 255, 0.5);
 }
 /* ===================
     Root CSS Ends
@@ -31,7 +39,275 @@ img{
     Common CSS Ends
 =================== */
 
+/* Font Families */
+.osw-reg{
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+.osw-med{
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+.osw-bold{
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+.open-reg{
+    font-family: var(--ff2);
+    font-weight: 400;
+}
 
+/* Font Size */
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-29{
+    font-size: 29px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-60{
+    font-size: 60px;
+}
+
+/* Colors */
+.text-brand{
+
+    /* ekhane var er maddhome color pic hocche na keno? problem */
+    color: var(--brand) !important;
+    color: #e23e38 !important;
+}
+.th-dark{
+    color: var(--th-dark);
+}
+.th-p{
+    color: var(--th-p);
+}
+/* ===================
+Typography CSS Ends
+=================== */
+
+
+/* ===================
+    Navbar CSS Starts
+=================== */
+.navbar{
+    background: rgba(53, 53, 53, 0.25);
+    position: fixed;
+    top: 30px;
+    left: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-brand{
+    background: rgba(53, 53, 53, 0.5);
+    padding: 10px 15px !important;
+    position: absolute;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+}
+
+.navbar .navbar-brand img{
+    transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    line-height: 50px;
+    padding: 0 10px !important;
+    position: relative;
+    z-index: 1;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link{
+    color: var(--th-dark) !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::before{
+    content: '';
+    width: 100%;
+    height: 0%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+    height: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    /* ekhane variable diye bg color dile nicche na keno? problem */
+    /* background: var(--brand); */
+    background: #e23e38;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .active{
+    color: var(--th-dark) !important;
+}
+
+.navbar .navbar-nav .nav-item .active::before{
+    height: 100%;
+}
+
+.navbar .navbar-nav .nav-item .active::after{
+    width: 100%;
+}
+/* ===================
+    Navbar CSS Ends
+=================== */
+
+
+/* ===================
+    Banner CSS Starts
+=================== */
+#banner .banner-item{
+    position: relative;
+    z-index: 1;
+    padding-top: 255px;
+    padding-bottom: 115px;
+}
+
+#banner .banner-item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    /* problem bg color neyni */
+    background: var(--over6);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+#banner .banner-item h3{
+    margin-bottom: 10px !important;
+    position: relative;
+}
+
+#banner .banner-item h2{
+    margin-bottom: 20px !important;
+    position: relative;
+}
+
+#banner .banner-item p{
+    position: relative;
+}
+
+#banner .banner-item a{
+    margin-top: 30px;
+    line-height: 34px;
+    padding: 0 14px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#banner .banner-item a:hover{
+    /* var kaj kore na - problem */
+    background: var(--brand);
+    border-color: var(--brand);
+    background: red;
+    border-color: red;
+    color: #fff;
+}
+
+#banner .banner-item a:first-of-type{
+    margin-right: 26px;
+}
+
+#banner .bg1{
+    background: url(../images/banner-bg-1.jpg) no-repeat center / cover;
+}
+
+#banner .bg2{
+    background: url(../images/banner-bg-2.jpg) no-repeat center / cover;
+}
+
+#banner .bg3{
+    background: url(../images/banner-bg-3.jpg) no-repeat center / cover;
+}
+
+#banner .bg1 h3::before{
+    content: '';
+    width: 165px;
+    height: 3px;
+    /* problem var er color pacche na */
+    background: var(--brand);
+    background: red;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+
+#banner .bg1 h3::after{
+    content: '';
+    width: 165px;
+    height: 3px;
+    /* problem var er color pacche na */
+    background: var(--brand);
+    background: red;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+/* ===================
+    Banner CSS Ends
+=================== */
 
 
 /* ===================
