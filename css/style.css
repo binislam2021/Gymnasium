@@ -1,4 +1,4 @@
-root{
+:root{
     --ff1: 'Oswald', sans-serif;
     --ff2: 'Open Sans', sans-serif;
 
@@ -91,10 +91,7 @@ img{
 
 /* Colors */
 .text-brand{
-
-    /* ekhane var er maddhome color pic hocche na keno? problem */
-    color: var(--brand) !important;
-    color: #e23e38 !important;
+    color: var(--brand);
 }
 .th-dark{
     color: var(--th-dark);
@@ -177,9 +174,7 @@ Typography CSS Ends
     content: '';
     width: 0%;
     height: 3px;
-    /* ekhane variable diye bg color dile nicche na keno? problem */
-    /* background: var(--brand); */
-    background: #e23e38;
+    background: var(--brand);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -225,7 +220,6 @@ Typography CSS Ends
     content: '';
     width: 100%;
     height: 100%;
-    /* problem bg color neyni */
     background: var(--over6);
     position: absolute;
     inset: 0;
@@ -258,11 +252,8 @@ Typography CSS Ends
 }
 
 #banner .banner-item a:hover{
-    /* var kaj kore na - problem */
     background: var(--brand);
     border-color: var(--brand);
-    background: red;
-    border-color: red;
     color: #fff;
 }
 
@@ -286,10 +277,9 @@ Typography CSS Ends
     content: '';
     width: 165px;
     height: 3px;
-    /* problem var er color pacche na */
     background: var(--brand);
-    background: red;
     position: absolute;
+    /* problem = positioning jayga moto hoyni */
     top: 20px;
     left: -20px;
 }
@@ -298,9 +288,28 @@ Typography CSS Ends
     content: '';
     width: 165px;
     height: 3px;
-    /* problem var er color pacche na */
     background: var(--brand);
-    background: red;
+    position: absolute;
+    /* problem = positioning jayga moto hoyni */
+    top: 20px;
+    right: -20px;
+}
+
+#banner .bg1 h2::before{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: var(--brand);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+
+#banner .bg1 h2::after{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: var(--brand);
     position: absolute;
     top: 20px;
     right: -20px;
