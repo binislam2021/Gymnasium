@@ -336,6 +336,54 @@ Typography CSS Ends
 #banner .bg1 p{
     padding: 0 20px;
 }
+
+#banner .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#banner .slick-dots li{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#banner .slick-dots .slick-active{
+    background: var(--brand);
+    border: var(--brand);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#banner .slick-dots li button{
+    font-size: 0;
+    border: none;
+    outline: none;
+}
 /* ===================
     Banner CSS Ends
 =================== */
