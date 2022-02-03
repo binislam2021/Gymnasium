@@ -273,46 +273,68 @@ Typography CSS Ends
     background: url(../images/banner-bg-3.jpg) no-repeat center / cover;
 }
 
-#banner .bg1 h3::before{
+#banner .bg1 h3::before {
     content: '';
     width: 165px;
     height: 3px;
     background: var(--brand);
     position: absolute;
-    /* problem = positioning jayga moto hoyni */
-    top: 20px;
     left: -20px;
+    top: 20px;
 }
 
-#banner .bg1 h3::after{
+#banner .bg1 h3::after {
     content: '';
-    width: 165px;
+    width: 115px;
     height: 3px;
     background: var(--brand);
     position: absolute;
-    /* problem = positioning jayga moto hoyni */
-    top: 20px;
     right: -20px;
+    top: 20px;
 }
 
-#banner .bg1 h2::before{
+#banner .bg1 h2::before {
     content: '';
     width: 3px;
-    height: 3px;
+    height: 200px;
     background: var(--brand);
     position: absolute;
-    top: 20px;
     left: -20px;
+    top: -24px;
 }
 
-#banner .bg1 h2::after{
+#banner .bg1 h2::after {
     content: '';
     width: 3px;
+    height: 200px;
+    background: var(--brand);
+    position: absolute;
+    right: -20px;
+    top: -24px;
+}
+
+#banner .bg1 p::before {
+    content: '';
+    width: 83px;
     height: 3px;
     background: var(--brand);
     position: absolute;
-    top: 20px;
+    left: -20px;
+    bottom: -45px;
+}
+
+#banner .bg1 p::after {
+    content: '';
+    width: 56px;
+    height: 3px;
+    background: var(--brand);
+    position: absolute;
     right: -20px;
+    bottom: -45px;
+}
+
+#banner .bg1 p{
+    padding: 0 20px;
 }
 /* ===================
     Banner CSS Ends
