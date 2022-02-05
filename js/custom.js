@@ -5,6 +5,11 @@ $(document).ready(function(){
         arrows: false,
         dots: true,
         autoplay: true,
+        pauseOnHover: false,
+    });
+
+    new VenoBox({
+        selector: '.abt-vdo'
     });
     
 });
