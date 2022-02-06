@@ -109,6 +109,9 @@ img{
 .th-dark{
     color: var(--th-dark);
 }
+.th-sub{
+    color: var(--cl2);
+}
 .th-p{
     color: var(--th-p);
 }
@@ -448,6 +451,69 @@ Typography CSS Ends
 /* ===================
     Team CSS Starts
 =================== */
+#team .card{
+    border-color: transparent !important;
+    margin-top: 60px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#team .card:hover{
+    border: 1px solid var(--bg1) !important;
+}
+#team .team-image .team-overlay{
+    background: var(--overred);
+    border: 5px solid var(--overwhite);
+    right: -100%;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#team .team-image:hover .team-overlay{
+    right: 0%;
+}
+#team .team-image .team-overlay a{
+    margin-right: 10px;
+}
+#team .team-image .team-overlay a:nth-last-of-type(2){
+    margin: 10px 10px 10px 0;
+}
+#team .team-image .team-overlay a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#team .team-image .team-overlay a:hover i{
+    background: #fff;
+    color: var(--twit) !important;
+}
+#team .card-body .card-text{
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#team .card:hover .card-text{
+    visibility: visible;
+    opacity: 1;
+}
 /* ===================
     Team CSS Ends
 =================== */
