@@ -20,5 +20,14 @@ $(document).ready(function(){
         numeration: true,
         share: true,
     });
+
+    // Slick Slider on the Testimonial
+    $('.testi-slider').slick({
+        arrows: false,
+        // dots: true,
+        slidesToShow: 2,
+        // autoplay: true,
+        // pauseOnHover: false,
+    });
     
 });

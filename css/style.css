@@ -531,6 +531,31 @@ Typography CSS Ends
 
 
 /* ===================
+    Testiminial CSS Starts
+=================== */
+#testimonial .testi-main{
+    background: url('../images/testimonial-bg.jpg') no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+#testimonial .testi-main::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background: var(--over8);
+    z-index: -1;
+}
+
+#testimonial .testi-item p{
+    padding-right: 30px;
+}
+/* ===================
+    Testiminial CSS Ends
+=================== */
+
+/* ===================
      CSS Starts
 =================== */
 /* ===================
