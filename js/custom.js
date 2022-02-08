@@ -35,8 +35,8 @@ $(document).ready(function(){
         arrows: false,
         dots: true,
         slidesToShow: 2,
-        // autoplay: true,
-        // pauseOnHover: false,
+        autoplay: true,
+        pauseOnHover: false,
     });
     
 });
