@@ -106,6 +106,12 @@ img{
 .bg-brand{
     background: var(--brand);
 }
+.bg1{
+    background: var(--bg1);
+}
+.bg2{
+    background: var(--bg2);
+}
 .th-dark{
     color: var(--th-dark);
 }
@@ -117,6 +123,9 @@ img{
 }
 .over-6{
     background: var(--over6);
+}
+.twit{
+    color: var(--twit);
 }
 /* ===================
 Typography CSS Ends
@@ -605,6 +614,63 @@ Typography CSS Ends
 /* ===================
      Membership Starts
 =================== */
+#membership{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#membership .member-item{
+    padding-top: 20px;
+}
+#membership .member-item h4{
+    line-height: 54px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#membership .member-item:hover h4{
+    background: var(--brand);
+    color: #fff;
+}
+#membership .member-item h3{
+    line-height: 120px;
+    z-index: 1;
+    position: relative;
+}
+#membership .member-item .item-1{
+    background: url('../images/membership-1.jpg') no-repeat center / cover;
+}
+#membership .member-item .item-2{
+    background: url('../images/membership-2.jpg') no-repeat center / cover;
+}
+#membership .member-item .item-3{
+    background: url('../images/membership-3.jpg') no-repeat center / cover;
+}
+#membership .member-item h3::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background: var(--over8);
+    z-index: -1;
+}
+#membership .member-item .btn{
+    line-height: 34px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#membership .member-item:hover .btn{
+    background: var(--brand);
+    color: #fff;
+}
+#membership .member-item .btn:focus{
+    box-shadow: none;
+}
 /* ===================
      Membership Ends
 =================== */
