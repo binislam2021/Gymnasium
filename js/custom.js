@@ -29,5 +29,12 @@ $(document).ready(function(){
         autoplay: true,
         pauseOnHover: false,
     });
+
+
+    // Counter Up on the Funfact
+    $('.counter').counterUp({
+        delay: 1,
+        time: 800,
+    });
     
 });
