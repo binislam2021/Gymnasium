@@ -637,7 +637,7 @@ Typography CSS Ends
     line-height: 120px;
     z-index: 1;
     position: relative;
-}
+} 
 #membership .member-item .item-1{
     background: url('../images/membership-1.jpg') no-repeat center / cover;
 }
@@ -741,6 +741,28 @@ Typography CSS Ends
 }
 #routine .nav-tabs .nav-item.show .nav-link, #routine .nav-tabs .nav-link.active{
     border: none !important;
+}
+#routine .routine-holder ul{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#routine .routine-holder ul li{
+    background: var(--bg2);
+    width: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: scale(0.975);
+    -webkit-transform: scale(0.975);
+    -moz-transform: scale(0.975);
+    -ms-transform: scale(0.975);
+    -o-transform: scale(0.975);
+}
+#routine .routine-holder ul li.active{
+    background: var(--brand);
+}
+#routine .routine-holder ul li.active p{
+    color: #fff;
 }
 /* ===================
     Routine CSS Ends
