@@ -36,5 +36,16 @@ $(document).ready(function(){
         delay: 1,
         time: 800,
     });
+
+    // Slick Slider on the Brand
+    $('.brand-slider').slick({
+        slidesToShow: 5,
+        centerMode: true,
+        centerPadding: '0px',
+        // autoplay: true,
+        
+        prevArrow: '<i class="fas fa-chevron-left left-arrow"></i>',
+        nextArrow: '<i class="fas fa-chevron-right right-arrow"></i>',
+    });
     
 });
