@@ -772,10 +772,14 @@ Typography CSS Ends
 /* ===================
     Brand CSS Starts
 =================== */
+#brand{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 #brand .brand-item{
     margin: 0 15px;
     transform: scale(0.9);
-    -webkit-transform: scale(0.9);
+    -webkit-transform: scale(0.85);
     -moz-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
@@ -786,11 +790,10 @@ Typography CSS Ends
     -o-transition: all linear 0.4s;
 }
 #brand .brand-item img{
-    width: 100%;
-    
+    width: 100%;    
 }
 #brand .brand-item.slick-center{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
     transform: scale(0.95);
     -webkit-transform: scale(0.95);
     -moz-transform: scale(0.95);
@@ -809,6 +812,14 @@ Typography CSS Ends
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .left-arrow:hover{
+    color: var(--brand);
 }
 #brand .right-arrow{
     font-size: 28px;
@@ -822,6 +833,14 @@ Typography CSS Ends
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .right-arrow:hover{
+    color: var(--brand);
 }
 /* ===================
     Brand CSS Ends
