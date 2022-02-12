@@ -864,9 +864,25 @@ Typography CSS Ends
     background: var(--over85);
     z-index: -1;
 }
+#footer .footer-main ul li:last-child{
+    margin-bottom: 0 !important;
+}
+#footer .footer-main .opening-hours li{
+    margin-bottom: 5px;
+}
 #footer .footer-main .opening-hours li span{
     width: 100px;
     display: inline-block;
+}
+#footer .footer-main .twiiter-feed li{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+#footer .footer-main .twiiter-feed li a{
+    line-height: 18px;
+}
+#footer .footer-main .twiiter-feed li .twitter-icon{
+    top: 8px;
 }
 /* ===================
     Footer CSS Ends
