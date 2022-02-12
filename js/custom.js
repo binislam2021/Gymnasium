@@ -19,6 +19,8 @@ $(document).ready(function(){
         selector: '.gall-pop',
         numeration: true,
         share: true,
+        spinner: 'wave',
+        spinColor: '#e23e38'
     });
 
     // Slick Slider on the Testimonial
@@ -42,7 +44,7 @@ $(document).ready(function(){
         slidesToShow: 5,
         centerMode: true,
         centerPadding: '0px',
-        // autoplay: true,
+        autoplay: true,
         
         prevArrow: '<i class="fas fa-chevron-left left-arrow"></i>',
         nextArrow: '<i class="fas fa-chevron-right right-arrow"></i>',
