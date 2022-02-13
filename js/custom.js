@@ -19,9 +19,11 @@ $(document).ready(function(){
         selector: '.gall-pop',
         numeration: true,
         share: true,
+        // problem :: spinner & spinColor add korte parchi na
         spinner: 'wave',
         spinColor: '#e23e38'
     });
+    
 
     // Slick Slider on the Testimonial
     $('.feedback-slider').slick({

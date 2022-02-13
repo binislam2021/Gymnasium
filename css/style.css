@@ -864,10 +864,15 @@ Typography CSS Ends
     background: var(--over85);
     z-index: -1;
 }
+#footer .footer-logo img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 #footer .footer-main{
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #footer .footer-main h4{
     margin-bottom: 30px !important;
@@ -884,7 +889,7 @@ Typography CSS Ends
 }
 #footer .footer-main .twiiter-feed li{
     padding-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 #footer .footer-main .twiiter-feed li a{
     line-height: 18px;
@@ -913,7 +918,6 @@ Typography CSS Ends
 }
 #footer .footer-contact li{
     padding-left: 20px;
-    margin-bottom: 6px;
 }
 #footer .footer-contact li:last-of-type{
     margin-bottom: 0 !important;
@@ -947,6 +951,12 @@ Typography CSS Ends
 #footer .footer-main .footer-contact a i:hover{
     background: var(--brand);
     border-color: var(--brand);
+}
+#footer .footer-copy p{
+    line-height: 52px;
+}
+#footer .footer-copy a:hover{
+    color: var(--brand);
 }
 /* ===================
     Footer CSS Ends
