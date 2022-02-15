@@ -328,6 +328,12 @@
         right: 49px;
         bottom: -28px;
     }
+    #about .abt-text p {
+        padding: 0;
+    }
+    #about .abt-video{
+        margin-top: 20px;
+    }
     
 }
 /* ==================================
