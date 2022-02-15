@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('.banner-slider').slick({
         arrows: false,
         dots: true,
-        autoplay: true,
+        // autoplay: true,
         pauseOnHover: false,
     });
 
@@ -60,23 +60,32 @@ $(document).ready(function(){
         prevArrow: '<i class="fas fa-chevron-left left-arrow"></i>',
         nextArrow: '<i class="fas fa-chevron-right right-arrow"></i>',
         responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-                  infinite: true,
-                }
-              },
-            {
-                breakpoint: 576,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  arrows: false,
-                }
-              },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              arrows: false,
+            }
+          },
         ],
     });
     
