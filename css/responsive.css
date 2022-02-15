@@ -2,8 +2,11 @@
     Extra Samll Device Starts
 ================================== */
 @media (max-width: 575px){
+
+    /* Navbar Starts */
     .navbar{
         background: rgba(226, 62, 56, 0.5);
+        top: 0;
     }
     .navbar .navbar-brand{
         position: static;
@@ -44,9 +47,13 @@
     .navbar .navbar-nav .nav-item .nav-link::after{
         width: 100%;
     }
-    /* Navbar Ends */
 
 
+    /* Banner Starts */
+    #banner .banner-item {
+        padding-top: 220px;
+        padding-bottom: 75px;
+    }
     #banner .banner-item h3{
         font-size: 24px;
     }
@@ -68,8 +75,9 @@
     #banner .bg1 p{
         padding: 0;
     }
-    /* Banner Ends */
+    
 
+    /* About Starts */
     #about {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -80,21 +88,23 @@
     #about .abt-video{
         margin-top: 20px;
     }
-    /* About Ends */
+    
 
+    /* Team Starts */
     #team {
         padding-top: 60px;
         padding-bottom: 18px;
     }
-    /* Team Ends */
 
 
+    /* Funfact Starts */
     #funfact .fun-item{
         text-align: center;
         margin-bottom: 15px;
     }
-    /* Funfact Ends */
+    
 
+    /* Routine Starts */
     #routine .nav-tabs{
         flex-direction: column;
     }
@@ -104,7 +114,27 @@
     #routine .routine-holder ul li{
         width: 100%;
     }
-    /* Routine Ends */
+    
+
+    /* Brand Starts */
+    #brand{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+
+    /* Footer Starts */
+    #footer .footer-logo img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #footer .footer-main h4{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer .footer-main .opening-hours {
+        padding-left: 36px !important;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
