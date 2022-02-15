@@ -328,11 +328,29 @@
         right: 49px;
         bottom: -28px;
     }
+
+    /* About Starts (md device) */
     #about .abt-text p {
         padding: 0;
     }
     #about .abt-video{
         margin-top: 20px;
+    }
+
+    /* Membership Starts (md device) */
+    #membership .member-item h3 {
+        line-height: 95px;
+        font-size: 42px;
+    }
+    #membership .member-item h3 span{
+        font-size: 24px;
+    }
+    #membership .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    #membership .pb-3 {
+        padding-bottom: 0.5rem !important;
     }
     
 }
