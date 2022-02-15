@@ -44,7 +44,8 @@
     .navbar .navbar-nav .nav-item .nav-link::after{
         width: 100%;
     }
-    /* Navbar Responsive CSS Ends */
+    /* Navbar Ends */
+
 
     #banner .banner-item h3{
         font-size: 24px;
@@ -67,6 +68,43 @@
     #banner .bg1 p{
         padding: 0;
     }
+    /* Banner Ends */
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #about .abt-text p {
+        padding: 0;
+    }
+    #about .abt-video{
+        margin-top: 20px;
+    }
+    /* About Ends */
+
+    #team {
+        padding-top: 60px;
+        padding-bottom: 18px;
+    }
+    /* Team Ends */
+
+
+    #funfact .fun-item{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    /* Funfact Ends */
+
+    #routine .nav-tabs{
+        flex-direction: column;
+    }
+    #routine .nav-tabs .nav-item {
+        width: 100%;
+    }
+    #routine .routine-holder ul li{
+        width: 100%;
+    }
+    /* Routine Ends */
 }
 /* ==================================
     Extra Samll Device Ends
