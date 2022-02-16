@@ -252,7 +252,7 @@
 @media (min-width: 768px) and (max-width: 991px){
 
     /* Navbar Starts (md device) */
-    .navbar{
+    /* .navbar{
         background: rgba(53, 53, 53, 0.6);
         top: 0;
     }
@@ -294,7 +294,7 @@
     }
     .navbar .navbar-nav .nav-item .nav-link::after{
         width: 100%;
-    }
+    } */
 
     /* Banner Starts (md device) */
     #banner p {
@@ -352,7 +352,23 @@
     #membership .pb-3 {
         padding-bottom: 0.5rem !important;
     }
-    
+
+    /* Routine Starts */
+    #routine .routine-holder ul li{
+        width: 25%;
+    }
+    #routine .routine-holder ul li:nth-child(9),
+    #routine .routine-holder ul li:last-child{
+        width: 50%;
+    }
+    #routine .routine-holder ul li p:last-of-type{
+        font-size: 13px;
+    }  
+}
+@media (min-width: 792px) and (max-width: 1199px){
+    #footer .footer-main .opening-hours li span {
+        width: 85px;
+    }
 }
 /* ==================================
     Medium Device Ends
