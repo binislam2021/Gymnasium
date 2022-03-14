@@ -80,6 +80,9 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    #about_page #about{
+        margin-top: 36px;
+    }
     #about .abt-text p {
         padding: 0;
     }
@@ -250,51 +253,6 @@
     Medium Device Starts
 ================================== */
 @media (min-width: 768px) and (max-width: 991px){
-
-    /* Navbar Starts (md device) */
-    /* .navbar{
-        background: rgba(53, 53, 53, 0.6);
-        top: 0;
-    }
-    .navbar .navbar-brand{
-        position: static;
-        padding: 0 !important;
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar .navbar-brand img{
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar-light .navbar-toggler{
-        border-color: #fff !important;
-    }
-    .navbar-toggler span{
-        color: #fff;
-    }
-    .navbar-nav{
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .navbar-nav .nav-item .nav-link{
-        color: #353535 !important;
-        text-align: center;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::before{
-        height: 100%;
-        width: 0%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link:hover::before{
-        width: 100%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::after{
-        width: 100%;
-    } */
 
     /* Banner Starts (md device) */
     #banner p {

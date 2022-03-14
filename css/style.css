@@ -96,7 +96,7 @@ img{
     font-size: 50px;
 }
 .fs-60{
-    font-size: 60px;☺
+    font-size: 60px;
 }
 
 /* Colors */
@@ -130,8 +130,6 @@ img{
 /* ===================
 Typography CSS Ends
 =================== */
-
-
 /* ===================
     Navbar CSS Starts
 =================== */
@@ -221,8 +219,6 @@ Typography CSS Ends
 /* ===================
     Navbar CSS Ends
 =================== */
-
-
 /* ===================
     Banner CSS Starts
 =================== */
@@ -383,14 +379,15 @@ Typography CSS Ends
 /* ===================
     Banner CSS Ends
 =================== */
-
-
 /* ===================
     About CSS Starts
 =================== */
 #about{
     padding-top: 80px;
     padding-bottom: 80px;
+}
+#about_page #about{
+    margin-top: 100px !important;
 }
 #about .abt-video .abt-overlay i{
     width: 48px;
@@ -410,11 +407,12 @@ Typography CSS Ends
 /* ===================
     About CSS Ends
 =================== */
-
-
 /* ===================
     Gallery CSS Starts
 =================== */
+#gallery_page #gallery {
+    margin-top: 150px;
+}
 #gallery .gallery-main{
     background: url('../images/gallery-bg.jpg') no-repeat center / cover;
     position: relative;
@@ -444,10 +442,10 @@ Typography CSS Ends
     -ms-transform: scale(0.95);
     -o-transform: scale(0.95);
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #gallery .gallery-main .gallery-item:hover .gl-overlay{
     top: 0;
@@ -455,8 +453,6 @@ Typography CSS Ends
 /* ===================
     Gallery CSS Ends
 =================== */
-
-
 /* ===================
     Team CSS Starts
 =================== */
@@ -537,11 +533,10 @@ Typography CSS Ends
 /* ===================
     Team CSS Ends
 =================== */
-
-
 /* ===================
     Testiminial CSS Starts
 =================== */
+
 #feedback .feedback-main{
     background: url('../images/testimonial-bg.jpg') no-repeat center / cover;
     position: relative;
@@ -610,8 +605,6 @@ Typography CSS Ends
 /* ===================
     Testiminial CSS Ends
 =================== */
-
-
 /* ===================
      Membership Starts
 =================== */
