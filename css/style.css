@@ -464,10 +464,10 @@ Typography CSS Ends
     border-color: transparent !important;
     margin-top: 60px;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #team .card:hover{
     border: 1px solid var(--bg1) !important;
@@ -487,10 +487,10 @@ Typography CSS Ends
     -ms-transform: scale(0.95);
     -o-transform: scale(0.95);
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #team .card:hover .team-overlay{
     right: 0%;
@@ -506,10 +506,10 @@ Typography CSS Ends
     height: 30px;
     line-height: 30px;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #team .team-image .team-overlay a:hover i{
     background: #fff;
@@ -521,10 +521,10 @@ Typography CSS Ends
     padding: 0 12px;
     line-height: 18px;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #team .card:hover .card-text{
     visibility: visible;
@@ -536,7 +536,9 @@ Typography CSS Ends
 /* ===================
     Testiminial CSS Starts
 =================== */
-
+#testimonial_page #feedback {
+    margin-top: 150px;
+}
 #feedback .feedback-main{
     background: url('../images/testimonial-bg.jpg') no-repeat center / cover;
     position: relative;
@@ -583,10 +585,10 @@ Typography CSS Ends
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #feedback .slick-dots li button{
     font-size: 0;
@@ -618,10 +620,10 @@ Typography CSS Ends
 #membership .member-item h4{
     line-height: 54px;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #membership .member-item:hover h4{
     background: var(--brand);
@@ -653,10 +655,10 @@ Typography CSS Ends
 #membership .member-item .btn{
     line-height: 34px;
     transition: all linear 0.4s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 #membership .member-item:hover .btn{
     background: var(--brand);
@@ -955,6 +957,22 @@ Typography CSS Ends
 /* ===================
     Footer CSS Ends
 =================== */
+/* =======================
+    Contact Part Starts
+======================= */
+#contact_page input {
+    width: 100%;
+}
+#contact_page button{
+    width: 100%;
+}
+/* ========================
+    Contact Part Ends
+======================== */
+
+
+
+
 
 
 /* ===================
