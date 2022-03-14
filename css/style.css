@@ -960,6 +960,9 @@ Typography CSS Ends
 /* =======================
     Contact Part Starts
 ======================= */
+#contact_page #contact-form{
+    margin-top: 100px !important;
+}
 #contact_page input {
     width: 100%;
 }
