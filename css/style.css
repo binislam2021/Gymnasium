@@ -965,6 +965,7 @@ Typography CSS Ends
 }
 #contact_page input {
     width: 100%;
+    padding-left: 15px;
 }
 #contact_page button{
     width: 100%;
