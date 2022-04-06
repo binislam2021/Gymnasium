@@ -1,2 +1,2 @@
 # Gymnasium
-https://binislam2021.github.io/Gymnasium
+https://thrivecoders.github.io/Gymnasium
